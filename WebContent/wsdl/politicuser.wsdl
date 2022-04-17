@@ -151,7 +151,7 @@
   </wsdl:binding>
   <wsdl:service name="PoliticUserService">
     <wsdl:port name="PoliticUserPort" binding="tns:PoliticUserServiceSoapBinding">
-      <soap:address location="http://localhost:8080/com.service.politic13/services/PoliticUserPort"/>
+      <soap:address location="http://localhost:8080/com.service.politic13/services"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
