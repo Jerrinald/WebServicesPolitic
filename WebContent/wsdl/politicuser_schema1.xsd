@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://jaxb.dev.java.net/array" xmlns:tns="http://politic13.service.com/" elementFormDefault="unqualified" targetNamespace="http://politic13.service.com/" version="1.0">
+<xs:import namespace="http://jaxb.dev.java.net/array" schemaLocation="politicuser_schema2.xsd"/>
+<xs:element name="addPolitician" type="tns:addPolitician"/>
+<xs:element name="addPoliticianResponse" type="tns:addPoliticianResponse"/>
+<xs:element name="clearList" type="tns:clearList"/>
+<xs:element name="clearListResponse" type="tns:clearListResponse"/>
+<xs:element name="displayPoliticList" type="tns:displayPoliticList"/>
+<xs:element name="displayPoliticListResponse" type="tns:displayPoliticListResponse"/>
+<xs:element name="getPoliticDescription" type="tns:getPoliticDescription"/>
+<xs:element name="getPoliticDescriptionResponse" type="tns:getPoliticDescriptionResponse"/>
+<xs:element name="getTweetPolitic" type="tns:getTweetPolitic"/>
+<xs:element name="getTweetPoliticResponse" type="tns:getTweetPoliticResponse"/>
+<xs:element name="politicInList" type="tns:politicInList"/>
+<xs:element name="politicInListResponse" type="tns:politicInListResponse"/>
+<xs:complexType name="clearList">
+    <xs:sequence/>
+  </xs:complexType>
+<xs:complexType name="clearListResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="addPolitician">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="addPoliticianResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="displayPoliticList">
+    <xs:sequence/>
+  </xs:complexType>
+<xs:complexType name="displayPoliticListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="getTweetPolitic">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="getTweetPoliticResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="ns1:stringArray"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="politicInList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="politicInListResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="getPoliticDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+<xs:complexType name="getPoliticDescriptionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

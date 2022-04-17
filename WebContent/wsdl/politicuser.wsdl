@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="PoliticUserService" targetNamespace="http://politic13.service.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://politic13.service.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+<import namespace="http://politic13.service.com/" schemaLocation="politicuser_schema1.xsd"/>
+<import namespace="http://jaxb.dev.java.net/array" schemaLocation="politicuser_schema2.xsd"/>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="clearList">
+    <wsdl:part name="parameters" element="tns:clearList">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addPolitician">
+    <wsdl:part name="parameters" element="tns:addPolitician">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="displayPoliticList">
+    <wsdl:part name="parameters" element="tns:displayPoliticList">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="clearListResponse">
+    <wsdl:part name="parameters" element="tns:clearListResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTweetPolitic">
+    <wsdl:part name="parameters" element="tns:getTweetPolitic">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPoliticDescriptionResponse">
+    <wsdl:part name="parameters" element="tns:getPoliticDescriptionResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="politicInListResponse">
+    <wsdl:part name="parameters" element="tns:politicInListResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="politicInList">
+    <wsdl:part name="parameters" element="tns:politicInList">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addPoliticianResponse">
+    <wsdl:part name="parameters" element="tns:addPoliticianResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPoliticDescription">
+    <wsdl:part name="parameters" element="tns:getPoliticDescription">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="displayPoliticListResponse">
+    <wsdl:part name="parameters" element="tns:displayPoliticListResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTweetPoliticResponse">
+    <wsdl:part name="parameters" element="tns:getTweetPoliticResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="PoliticUser">
+    <wsdl:operation name="clearList">
+      <wsdl:input name="clearList" message="tns:clearList">
+    </wsdl:input>
+      <wsdl:output name="clearListResponse" message="tns:clearListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addPolitician">
+      <wsdl:input name="addPolitician" message="tns:addPolitician">
+    </wsdl:input>
+      <wsdl:output name="addPoliticianResponse" message="tns:addPoliticianResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayPoliticList">
+      <wsdl:input name="displayPoliticList" message="tns:displayPoliticList">
+    </wsdl:input>
+      <wsdl:output name="displayPoliticListResponse" message="tns:displayPoliticListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTweetPolitic">
+      <wsdl:input name="getTweetPolitic" message="tns:getTweetPolitic">
+    </wsdl:input>
+      <wsdl:output name="getTweetPoliticResponse" message="tns:getTweetPoliticResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="politicInList">
+      <wsdl:input name="politicInList" message="tns:politicInList">
+    </wsdl:input>
+      <wsdl:output name="politicInListResponse" message="tns:politicInListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPoliticDescription">
+      <wsdl:input name="getPoliticDescription" message="tns:getPoliticDescription">
+    </wsdl:input>
+      <wsdl:output name="getPoliticDescriptionResponse" message="tns:getPoliticDescriptionResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PoliticUserServiceSoapBinding" type="tns:PoliticUser">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="clearList">
+      <soap:operation soapAction="urn:ClearList" style="document"/>
+      <wsdl:input name="clearList">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="clearListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addPolitician">
+      <soap:operation soapAction="urn:AddPolitician" style="document"/>
+      <wsdl:input name="addPolitician">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addPoliticianResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="displayPoliticList">
+      <soap:operation soapAction="urn:DisplayPoliticList" style="document"/>
+      <wsdl:input name="displayPoliticList">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="displayPoliticListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTweetPolitic">
+      <soap:operation soapAction="urn:GetTweetPolitic" style="document"/>
+      <wsdl:input name="getTweetPolitic">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTweetPoliticResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="politicInList">
+      <soap:operation soapAction="urn:PoliticInList" style="document"/>
+      <wsdl:input name="politicInList">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="politicInListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPoliticDescription">
+      <soap:operation soapAction="urn:GetPoliticDescription" style="document"/>
+      <wsdl:input name="getPoliticDescription">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getPoliticDescriptionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PoliticUserService">
+    <wsdl:port name="PoliticUserPort" binding="tns:PoliticUserServiceSoapBinding">
+      <soap:address location="http://localhost:8080/com.service.politic13/services/PoliticUserPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
