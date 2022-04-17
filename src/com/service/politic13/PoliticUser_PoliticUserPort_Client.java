@@ -55,17 +55,17 @@ public final class PoliticUser_PoliticUserPort_Client {
 		PoliticUserService ss = new PoliticUserService(wsdlURL, SERVICE_NAME);
 		PoliticUser port = ss.getPoliticUserPort();
 
-		String continu = "";
+		String continu = ""; //variable to check if the client want to continue or finish
 
-		while (!continu.equals("n")) {
+		while (!continu.equals("n")) { //while client want to continue
 			System.out.println("Add a new politician");
 
 			String politicName = "";
 
-			politicName += scan.nextLine();
+			politicName += scan.nextLine(); // add a politician by the terminal
 
 			String politicExist = port.getPoliticDescription(politicName);
-			while (politicExist.equals("")) {
+			while (politicExist.equals("")) { //if the politician is not in the hash map defined in the PoliticInfo class
 				System.out.println("This politician is not identified ! Enter again a new politician ");
 				politicName = "";
 				politicName += scan.nextLine();
@@ -74,7 +74,7 @@ public final class PoliticUser_PoliticUserPort_Client {
 
 			String politicAdd = port.addPolitician(politicName);
 
-			System.out.println(politicAdd);
+			System.out.println(politicAdd); //the politician is added to the client's list
 
 			System.out.println("Do you want information about this politician ? (y/n) ");
 
@@ -82,20 +82,20 @@ public final class PoliticUser_PoliticUserPort_Client {
 
 			if (response.equals("y")) {
 				String description = port.getPoliticDescription(politicName);
-				System.out.println(description);
+				System.out.println(description); //display the description about the politician added
 				
 				System.out.println("\nThe lasts Tweets for the political party : \n");
 
-				List<StringArray> politicTweet = port.getTweetPolitic(politicName);
+				List<StringArray> politicTweet = port.getTweetPolitic(politicName); //get the recents tweets of the politician's political party
 
 				for (int i = 0; i < politicTweet.size(); i++) {
-					System.out.println("Tweet date : " + politicTweet.get(i).getItem().get(0));
-					System.out.println("Tweet text : " + politicTweet.get(i).getItem().get(1) + "\n");
+					System.out.println("Tweet date : " + politicTweet.get(i).getItem().get(0)); //display the tweet date
+					System.out.println("Tweet text : " + politicTweet.get(i).getItem().get(1) + "\n"); //display the tweet text
 				}
 				
 				
 				System.out.println("\nYour List of politicians : ");
-				String politicList = port.displayPoliticList();
+				String politicList = port.displayPoliticList(); //the client's politician list
 
 				System.out.println(politicList);
 				
@@ -104,7 +104,7 @@ public final class PoliticUser_PoliticUserPort_Client {
 				String infoAgain = scan.next();
 				scan.nextLine();
 
-				while(!infoAgain.equals("n")) {
+				while(!infoAgain.equals("n")) { //while the client want to see informations about a politician of his list
 					
 					System.out.println("Which one ?");
 	
@@ -114,13 +114,20 @@ public final class PoliticUser_PoliticUserPort_Client {
 					/*String descriptionAgain = port.getPoliticDescription(politicNameAgain);
 					System.out.println(descriptionAgain);*/
 					
-					while(!port.politicInList(politicNameAgain)) {
+					while(!port.politicInList(politicNameAgain)) { //check if the politician entered by the client is in his list
 						System.out.println("\n This politician is not in your List ! Enter a politician of your list");
 						politicNameAgain = "";
 						politicNameAgain += scan.nextLine();
 					}
 					String descriptionAgain = port.getPoliticDescription(politicNameAgain);
-					System.out.println(descriptionAgain);
+					System.out.println(descriptionAgain + "\n");
+					
+					List<StringArray> politicTweetAgain = port.getTweetPolitic(politicNameAgain); //get the recents tweets of the politician's political party
+
+					for (int i = 0; i < politicTweet.size(); i++) {
+						System.out.println("Tweet date : " + politicTweetAgain.get(i).getItem().get(0)); //display the tweet date
+						System.out.println("Tweet text : " + politicTweetAgain.get(i).getItem().get(1) + "\n"); //display the tweet text
+					}
 					
 					System.out.println("\nDo you want informations again about one politician of your list ? (y/n)");
 					
@@ -135,7 +142,7 @@ public final class PoliticUser_PoliticUserPort_Client {
 			scan.nextLine();
 		}
 
-		System.exit(port.clearList());
+		System.exit(port.clearList()); //exit the program with the return 0 in System.exit
 	}
 
 }
