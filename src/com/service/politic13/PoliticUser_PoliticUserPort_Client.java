@@ -30,7 +30,7 @@ import net.java.dev.jaxb.array.StringArray;
  */
 public final class PoliticUser_PoliticUserPort_Client {
 
-	static final Scanner scan = new Scanner(System.in);
+	static final Scanner scan = new Scanner(System.in); //the scanner to get the client responses
 
 	private static final QName SERVICE_NAME = new QName("http://politic13.service.com/", "PoliticUserService");
 
@@ -93,48 +93,46 @@ public final class PoliticUser_PoliticUserPort_Client {
 					System.out.println("Tweet text : " + politicTweet.get(i).getItem().get(1) + "\n"); //display the tweet text
 				}
 				
-				
-				System.out.println("\nYour List of politicians : ");
-				String politicList = port.displayPoliticList(); //the client's politician list
+			
+			}
+			
+			System.out.println("\nYour List of politicians : ");
+			String politicList = port.displayPoliticList(); //the client's politician list
 
-				System.out.println(politicList);
+			System.out.println(politicList);
+			
+			System.out.println("\nDo you want informations again about one politician of your list ? (y/n)");
+			
+			String infoAgain = scan.next();
+			scan.nextLine();
+
+			while(!infoAgain.equals("n")) { //while the client want to see informations about a politician of his list
+				
+				System.out.println("Which one ?");
+
+				String politicNameAgain = "";
+				politicNameAgain += scan.nextLine();
+
+				
+				while(!port.politicInList(politicNameAgain)) { //check if the politician entered by the client is in his list
+					System.out.println("\n This politician is not in your List ! Enter a politician of your list");
+					politicNameAgain = "";
+					politicNameAgain += scan.nextLine();
+				}
+				String descriptionAgain = port.getPoliticDescription(politicNameAgain);
+				System.out.println(descriptionAgain + "\n"); //display the informations about the politician
+				
+				List<StringArray> politicTweetAgain = port.getTweetPolitic(politicNameAgain); //get the recents tweets of the politician's political party
+
+				for (int i = 0; i < politicTweetAgain.size(); i++) {
+					System.out.println("Tweet date : " + politicTweetAgain.get(i).getItem().get(0)); //display the tweet date
+					System.out.println("Tweet text : " + politicTweetAgain.get(i).getItem().get(1) + "\n"); //display the tweet text
+				}
 				
 				System.out.println("\nDo you want informations again about one politician of your list ? (y/n)");
 				
-				String infoAgain = scan.next();
+				infoAgain = scan.next();
 				scan.nextLine();
-
-				while(!infoAgain.equals("n")) { //while the client want to see informations about a politician of his list
-					
-					System.out.println("Which one ?");
-	
-					String politicNameAgain = "";
-					politicNameAgain += scan.nextLine();
-	
-					/*String descriptionAgain = port.getPoliticDescription(politicNameAgain);
-					System.out.println(descriptionAgain);*/
-					
-					while(!port.politicInList(politicNameAgain)) { //check if the politician entered by the client is in his list
-						System.out.println("\n This politician is not in your List ! Enter a politician of your list");
-						politicNameAgain = "";
-						politicNameAgain += scan.nextLine();
-					}
-					String descriptionAgain = port.getPoliticDescription(politicNameAgain);
-					System.out.println(descriptionAgain + "\n");
-					
-					List<StringArray> politicTweetAgain = port.getTweetPolitic(politicNameAgain); //get the recents tweets of the politician's political party
-
-					for (int i = 0; i < politicTweet.size(); i++) {
-						System.out.println("Tweet date : " + politicTweetAgain.get(i).getItem().get(0)); //display the tweet date
-						System.out.println("Tweet text : " + politicTweetAgain.get(i).getItem().get(1) + "\n"); //display the tweet text
-					}
-					
-					System.out.println("\nDo you want informations again about one politician of your list ? (y/n)");
-					
-					infoAgain = scan.next();
-					scan.nextLine();
-				}
-			
 			}
 
 			System.out.println("\nDo you want to add a new Politician ? (y/n)");
@@ -142,6 +140,7 @@ public final class PoliticUser_PoliticUserPort_Client {
 			scan.nextLine();
 		}
 
+		System.out.println("End of the program");
 		System.exit(port.clearList()); //exit the program with the return 0 in System.exit
 	}
 
