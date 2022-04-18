@@ -6,7 +6,7 @@ Members and e-mails:
 Jerrinald Kanikainathan - k.jerrinald@gmail.com  
 Yanis Zerguit - enjoy95.yz@gmail.com
 
-We have 3 branch : the first for the readme, the second for the server(master), and another one for the client
+We have 4 branch : the first for the readme, the second for the server(master), another one for the client, and one for the server jax-rs(that we were not able to run on server)
 
 For the 2 API requests that we do to get data from Twitter, we have 2 referenced codes :
 - https://github.com/twitterdev/Twitter-API-v2-sample-code/blob/main/User-Lookup/UsersDemo.java  : to get an ID of a twiiter account
@@ -16,7 +16,8 @@ In our project we provides the management of politic people. The client manages 
 So the client can add multiple politicians in his list and asks for informations about them.  
 You can also view the lasts tweets about their political party.
 
-We have a server package with 3 class : PoliticUser, PoliticInfo, TwitterManage  
+We have a server package(in the branch master) with 3 class : PoliticUser, PoliticInfo, TwitterManage  
+We have another server package for jax-rs(in the branch server jax-rs) that is not called by the client : we have a class(PoliticianResource.java) that do @GET requests on the Twitter API  
 We run the client program in the client package with PoliticUser_PoliticUserPort_Client.java class
 
 
@@ -74,7 +75,8 @@ Then the client can add a new politican in his list.
 So this programm will run while the client wants to add a new politician in his list.
 
 
-Scenario complete of the client test(We run the client program in the terminal) :  
+
+### Scenario complete of the client test(We run the client program in the terminal) :  
 (when we have the client's response, we have a dash at the beginning '-')
 
 Add a new politician
