@@ -82,37 +82,37 @@ Do you want information about this politician ? (y/n)
 
 The lasts Tweets for the political party : 
 
-Tweet date : 2022-04-18 17:00:02.000 
+Tweet date : 2022-04-18 17:00:02.000   
 Tweet text :   Dimanche 24 avril, si le peuple vote, le peuple gagne ! #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpj4EK https://t.co/P5D3dn7745
 
-Tweet date : 2022-04-18 16:00:00.000 
+Tweet date : 2022-04-18 16:00:00.000   
 Tweet text :   Échec, compromission, incompétence, élitisme... Qui est vraiment extrême ? #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpAFwi https://t.co/LnuNgsCMHV
 
-Tweet date : 2022-04-18 15:15:00.000 
+Tweet date : 2022-04-18 15:15:00.000   
 Tweet text :   Dimanche 24 avril, votez pour augmenter votre pouvoir d'achat ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoq5hn https://t.co/gRWZyTYeZM
 
-Tweet date : 2022-04-18 15:00:02.000 
+Tweet date : 2022-04-18 15:00:02.000   
 Tweet text :   Au premier tour, 73% des Français ont voté pour un changement. Dimanche, si vous ne voulez pas de la retraite à 65 ans, de la casse sociale et du mépris pendant cinq années supplémentaires, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpAFwi https://t.co/nfYqxc2DsL
 
-Tweet date : 2022-04-18 14:30:00.000 
+Tweet date : 2022-04-18 14:30:00.000   
 Tweet text :   Dimanche 24 avril, pour rendre aux Français leur pays et leur argent, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoHGFX https://t.co/RbUdzXdCGr
 
-Tweet date : 2022-04-18 14:15:00.000 
+Tweet date : 2022-04-18 14:15:00.000   
 Tweet text :   Vendredi 16 avril, Marine Le Pen s'est rendue sur le marché de Pertuis dans le Vaucluse pour continuer à convaincre une majorité de Français. #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpj4EK https://t.co/UXHen07rwc
 
-Tweet date : 2022-04-18 13:47:29.000 
+Tweet date : 2022-04-18 13:47:29.000   
 Tweet text :   Marine était ce matin en #Normandie auprès de cette France rurale que nous aimons tant ! Notre projet de redressement et d'espoir s'adresse à ces Français des terroirs, trop longtemps oubliés.
 ?? Le 24 avril, pas d'abstention ?? #MarinePrésidente ! https://t.co/tETAHVVbGz
 
-Tweet date : 2022-04-18 13:30:00.000 
+Tweet date : 2022-04-18 13:30:00.000   
 Tweet text :   Dimanche 24 avril, pour dire NON à la retraite à 65 ans, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoHGFX https://t.co/oBPQtkFmEp
@@ -141,26 +141,26 @@ Do you want information about this politician ? (y/n)
 
 The lasts Tweets for the political party : 
 
-Tweet date : 2022-04-18 18:16:02.000 
+Tweet date : 2022-04-18 18:16:02.000   
 Tweet text : Ce que je veux dire aux personnes qui hésitent à aller voter : 
 #CàVous https://t.co/d86wkDFPiS
 
-Tweet date : 2022-04-18 18:01:40.000 
+Tweet date : 2022-04-18 18:01:40.000   
 Tweet text : C'est #avecvous que je veux construire la France de demain. #CàVous https://t.co/RStQcrSqbp
 
-Tweet date : 2022-04-18 16:56:11.000 
+Tweet date : 2022-04-18 16:56:11.000   
 Tweet text : Pour que les vies de Lova, Sarah, Lona et de tous les Français puissent continuer à s'améliorer dans les 5 ans à venir, dimanche 24 avril, tous ensemble, votons Emmanuel Macron ! https://t.co/pzzqcEfHSO
 
-Tweet date : 2022-04-18 13:37:17.000 
+Tweet date : 2022-04-18 13:37:17.000   
 Tweet text : « Cela est bien plus rapide et pertinent que de baisser de manière permanente la TVA sur les carburants, ce qui est tout à la fois moins efficace et complètement contraire à nos intérêts économiques et climatiques. » @EmmanuelMacron @LePoint https://t.co/hIBmIQHxlK
 
-Tweet date : 2022-04-17 12:05:36.000 
+Tweet date : 2022-04-17 12:05:36.000   
 Tweet text : « Nous avons fait beaucoup pour l’environnement depuis 5 ans et nous voulons faire plus. » @GabrielAttal #QuestionPol https://t.co/VyIYE9sdj4
 
-Tweet date : 2022-04-16 16:41:13.000 
+Tweet date : 2022-04-16 16:41:13.000   
 Tweet text : En changeant de paradigme pour l'écologie, nous pourrons ensemble être celles et ceux qui savaient et qui ont fait ! C'est le rôle de notre génération. #MacronMarseille https://t.co/tEjyQxEOYx
 
-Tweet date : 2022-04-16 16:02:03.000 
+Tweet date : 2022-04-16 16:02:03.000   
 Tweet text : Pour susciter cette mobilisation générale de la Nation pour l'environnement, nous organiserons chaque année une grande fête de la nature. #MacronMarseille https://t.co/qzIv1sLVRE
 
 
@@ -176,42 +176,42 @@ Which one ?
 - Marine Le Pen  
 | Age : 53 | Political party : Rassemblement national |
 
-Tweet date : 2022-04-18 17:00:02.000 
+Tweet date : 2022-04-18 17:00:02.000   
 Tweet text :   Dimanche 24 avril, si le peuple vote, le peuple gagne ! #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpj4EK https://t.co/P5D3dn7745
 
-Tweet date : 2022-04-18 16:00:00.000 
+Tweet date : 2022-04-18 16:00:00.000   
 Tweet text :   Échec, compromission, incompétence, élitisme... Qui est vraiment extrême ? #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpAFwi https://t.co/LnuNgsCMHV
 
-Tweet date : 2022-04-18 15:15:00.000 
+Tweet date : 2022-04-18 15:15:00.000   
 Tweet text :   Dimanche 24 avril, votez pour augmenter votre pouvoir d'achat ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoq5hn https://t.co/gRWZyTYeZM
 
-Tweet date : 2022-04-18 15:00:02.000 
+Tweet date : 2022-04-18 15:00:02.000   
 Tweet text :   Au premier tour, 73% des Français ont voté pour un changement. Dimanche, si vous ne voulez pas de la retraite à 65 ans, de la casse sociale et du mépris pendant cinq années supplémentaires, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpAFwi https://t.co/nfYqxc2DsL
 
-Tweet date : 2022-04-18 14:30:00.000 
+Tweet date : 2022-04-18 14:30:00.000   
 Tweet text :   Dimanche 24 avril, pour rendre aux Français leur pays et leur argent, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoHGFX https://t.co/RbUdzXdCGr
 
-Tweet date : 2022-04-18 14:15:00.000 
+Tweet date : 2022-04-18 14:15:00.000   
 Tweet text :   Vendredi 16 avril, Marine Le Pen s'est rendue sur le marché de Pertuis dans le Vaucluse pour continuer à convaincre une majorité de Français. #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpj4EK https://t.co/UXHen07rwc
 
-Tweet date : 2022-04-18 13:47:29.000 
+Tweet date : 2022-04-18 13:47:29.000   
 Tweet text :   Marine était ce matin en #Normandie auprès de cette France rurale que nous aimons tant ! Notre projet de redressement et d'espoir s'adresse à ces Français des terroirs, trop longtemps oubliés.
 ?? Le 24 avril, pas d'abstention ?? #MarinePrésidente ! https://t.co/tETAHVVbGz
 
-Tweet date : 2022-04-18 13:30:00.000 
+Tweet date : 2022-04-18 13:30:00.000   
 Tweet text :   Dimanche 24 avril, pour dire NON à la retraite à 65 ans, allez voter ! #MarinePrésidente #DimancheJeVoteMarine
 Indisponible le 24 avril ? Donnez une procuration ! 
 ?? https://t.co/ALQ6yoHGFX https://t.co/oBPQtkFmEp
 
-Tweet date : 2022-04-18 13:00:02.000 
+Tweet date : 2022-04-18 13:00:02.000   
 Tweet text :   Samedi 16 avril, Mourad Boudjellal a insulté les électeurs de Marine Le Pen lors d'un meeting d'Emmanuel Macron à Marseille. Sortons ces personnes qui méprisent et détestent les Français par les urnes ! #MarinePrésidente #DimancheJeVoteMarine
 ?? https://t.co/CJKKUpAFwi https://t.co/A3VIrQVfLZ
 
