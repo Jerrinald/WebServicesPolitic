@@ -8,6 +8,10 @@ Yanis Zerguit - enjoy95.yz@gmail.com
 
 We have 3 branch : the first for the readme, the second for the server(master), and another one for the client
 
+For the 2 API requests that we do to get data from Twitter, we have 2 referenced codes :
+- https://github.com/twitterdev/Twitter-API-v2-sample-code/blob/main/User-Lookup/UsersDemo.java  : to get an ID of a twiiter account
+- https://github.com/twitterdev/Twitter-API-v2-sample-code/blob/main/User-Tweet-Timeline/UserTweetsDemo.java  : to get recents tweets from an ID twitter account
+
 In our project we provides the management of politic people. The client manages his own list of politicians and we retrieve for informations about them to the client.
 So the client can add multiple politicians in his list and asks for informations about them.  
 You can also view the lasts tweets about their political party.
